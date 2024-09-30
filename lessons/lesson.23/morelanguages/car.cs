@@ -1,7 +1,7 @@
 using System;
 
 class Car {
-    public string Make;
+    private string Make;
     public string Model;
     public int Year;
     public int Speed;
