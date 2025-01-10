@@ -12,11 +12,11 @@ public class Car {
     }
 
     public void accelerate(int increment) {
-        speed += increment;
+        this.speed += increment;
     }
 
     public void brake(int decrement) {
-        speed -= decrement;
+        this.speed -= decrement;
     }
 
     public static void main(String[] args) {
